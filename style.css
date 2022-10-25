@@ -22,7 +22,7 @@
         height: 600px;
 }
 /* debug */
-.col-5, .col-1, .col-2, .col-6, .col-8, .col-12{
+.block{
 
     border: 2px solid black;
     height: 40px;
@@ -32,6 +32,13 @@
 .logo {
 
     height: 250px;
+    width: 250px;
+    border: 2px solid ;
     border-radius: 100%;
 
+}
+.logo_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
