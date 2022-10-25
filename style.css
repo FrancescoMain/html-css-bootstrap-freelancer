@@ -18,14 +18,29 @@
     display: flex;
     align-items: center;
     background-color: #1abc9c;
-        /* debug */
-        height: 600px;
+    /* debug */
+    height: 600px;
 }
+
+/* main */
+.main_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* debug */
 .block{
 
     border: 2px solid black;
     height: 40px;
+
+}
+
+.block_xl {
+
+    border: 2px solid black;
+    height: 400px; 
 
 }
 
