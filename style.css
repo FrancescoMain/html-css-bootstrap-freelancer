@@ -75,32 +75,49 @@ img {
 
 }
 
-.form{
+.ms_button {
 
-    border-bottom: 2px solid;
-    height: calc((100% / 6) * 1);
+    background-color: #1abc9c;
+    padding: 10px;
+    border: 3px solid white;
+    border-radius: 10px;
+    color: white;
+    transition: all 1s;
+
+}
+
+.ms_button:hover , .send:hover {
+
+    background-color: #1a60bc59;;
 
 }
 
-.form_xl{
-    border-bottom: 2px solid;
-    height: calc((100% / 6) * 3);
 
-}
 
 .about_container{
     display: flex;
     background-color: #1abc9c;
 }
 
-.button {
-    width: 80px;
-    height: 40px;
-    background-color: aqua;
-    border: 2px solid;
-    border-radius: 10%;
+
+.send {
+
+    background-color: #1abc9c;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    transition: all 1s;
 }
 
+.form {
+
+    min-width: 100%;
+    border: none;
+    border-bottom: 2px solid grey;
+    padding: 20px 0;
+
+}
 
 /* footer  */
 .foot_container {
