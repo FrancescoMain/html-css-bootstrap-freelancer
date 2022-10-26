@@ -1,28 +1,62 @@
 *{
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 /* header  */
 
-.top_bar {
-    display: flex;
-    align-items: center;
+.ms_top_bar {
+
     background-color: #2c3e50;
+
 }
 
-.hero {
-    display: flex;
-    align-items: center;
+.ms_hero {
+
     background-color: #1abc9c;
-    /* debug */
-    height: 600px;
+
+}
+
+.ms_logo_container {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.ms_logo {
+
+    width: 250px;
+
+}
+
+.ms_title {
+
+    color: white;
+    font-weight: 700;
+
+}
+
+.ms_line {
+
+    border-bottom: 5px white solid;
+    width: 150px;
+    border-radius: 20px;
+
+}
+.ms_white {
+
+    color: white;
+
 }
 
 /* main */
 
 .form{
+
     border-bottom: 2px solid;
     height: calc((100% / 6) * 1);
 
@@ -97,19 +131,8 @@
 
 }
 
-.logo {
 
-    height: 250px;
-    width: 250px;
-    border: 2px solid ;
-    border-radius: 100%;
 
-}
-.logo_container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 /* BS MOD */
 
